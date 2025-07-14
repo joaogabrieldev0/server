@@ -7,6 +7,8 @@ import {
 	validatorCompiler,
 	type ZodTypeProvider,
 } from 'fastify-type-provider-zod';
+import { createRoomRoute } from '../http/routes/create-room.ts';
+import { getRoomsQuestions } from '../http/routes/get-room-questions.ts';
 import { getRoomsRoute } from '../http/routes/get-routes.ts';
 import { dotenv } from './env.ts';
 
@@ -25,5 +27,7 @@ app.get('/health', () => {
 });
 
 app.register(getRoomsRoute);
+app.register(createRoomRoute);
+app.register(getRoomsQuestions);
 
 await app.listen({ port: dotenv.PORT });

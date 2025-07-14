@@ -1,4 +1,5 @@
 PGVector -> Para fazer buscas por similaridade, através de "vetores" (conceitos de embbeddes)
+    -> https://hub.docker.com/r/pgvector/pgvector/tags
 
 Postgres -> Biblioteca utilizada para fazer a conexão com o banco de dados
 

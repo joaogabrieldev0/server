@@ -9,3 +9,21 @@ GET {{baseurl}}/health
 # GET ROOMS
 GET {{baseurl}}/rooms
 
+###
+
+#Create Room
+
+POST {{baseurl}}/rooms
+Accept: application/json
+Content-Type: application/json
+
+{
+    "name": "Sala de teste",
+    "description": "É uma sala de teste"
+}
+
+### 
+
+### Get Room Question
+
+GET {{baseurl}}/rooms/
