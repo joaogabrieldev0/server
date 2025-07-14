@@ -4,3 +4,4 @@ CREATE TABLE "rooms" (
 	"description" text,
 	"created_at" timestamp DEFAULT now() NOT NULL
 );
+

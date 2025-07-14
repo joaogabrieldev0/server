@@ -8,13 +8,14 @@ GET {{baseurl}}/health
 
 # GET ROOMS
 GET {{baseurl}}/rooms
+Accept: application/json
+Content-Type: application/json
 
 ###
 
 #Create Room
 
 POST {{baseurl}}/rooms
-Accept: application/json
 Content-Type: application/json
 
 {
