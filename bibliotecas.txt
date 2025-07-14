@@ -1,0 +1,18 @@
+PGVector -> Para fazer buscas por similaridade, através de "vetores" (conceitos de embbeddes)
+
+Postgres -> Biblioteca utilizada para fazer a conexão com o banco de dados
+
+Fastify -> Criação de API
+    - @fastify/cors 
+    - fastify-type-provider-zod 
+    - Zod -> Segurança com validações
+
+
+Dotenv -> Criação de variáveis ambiente
+
+Biomejs -> Formação de código
+    - Ultracite -> Preset do biome
+
+Drizzle -> Biblioteca para manipulação de banco de dados
+    -> Drizzle-Kit
+    -> Drizzle-Seed -> Arquivo para fazer uma pré-população do banco de dados com dados fictícios
