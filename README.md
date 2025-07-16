@@ -35,6 +35,7 @@ Servidor backend para o projeto NLW Agents, desenvolvido durante o NLW Agents #2
 - [@biomejs/biome](https://biomejs.dev/): Lint e formatação
 - [ultracite](https://github.com/biomejs/ultracite): Preset de configuração para Biome
 - [typescript](https://www.typescriptlang.org/): Tipagem estática
+- [@google/genai](https://ai.google.dev/gemini-api/docs/quickstart?hl=pt-br): Integração com Gemini API e embeddings (ver documentação oficial para detalhes de uso)  
 
 ## Como rodar ▶️
 1. Instale as dependências:
@@ -74,3 +75,10 @@ Desenvolvido durante o evento **NLW Agents #20** da Rocketseat.
 
 ## Autor
 João Gabriel 💡 
+
+## Obseravações
+- O backend estará disponível em: [http://localhost:3333](http://localhost:3333) (ou na porta definida na variável `PORT`).
+- Para modificar configurações do TypeScript, consulte: https://github.com/tsconfig/bases
+- Para mais detalhes sobre embeddings e Gemini API:  
+  - [Conceito de Embeddings](https://ai.google.dev/gemini-api/docs/embeddings?hl=pt-br#javascript)  
+  - [Gemini API Quickstart](https://ai.google.dev/gemini-api/docs/quickstart?hl=pt-br) 
