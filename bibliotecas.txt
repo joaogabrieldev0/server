@@ -17,3 +17,7 @@ Biomejs -> Formação de código
 Drizzle -> Biblioteca para manipulação de banco de dados
     -> Drizzle-Kit
     -> Drizzle-Seed -> Arquivo para fazer uma pré-população do banco de dados com dados fictícios
+
+@Google/GenAI 
+    -> Conceito de Embbeddings: https://ai.google.dev/gemini-api/docs/embeddings?hl=pt-br#javascript
+    -> Gemini API: https://ai.google.dev/gemini-api/docs/quickstart?hl=pt-br

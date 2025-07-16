@@ -2,6 +2,7 @@ import type { FastifyPluginCallbackZod } from 'fastify-type-provider-zod';
 import { z } from 'zod/v4';
 import { db } from '../../src/db/connection.ts';
 import { schema } from '../../src/db/schema/index.ts';
+import { generateEmbbeddings } from '../../src/services/gemini.ts';
 
 // -> Tipagem do GetRoomsRoute
 export const createQuestionRoute: FastifyPluginCallbackZod = (app) => {
@@ -21,6 +22,14 @@ export const createQuestionRoute: FastifyPluginCallbackZod = (app) => {
 			const { roomID } = request.params;
 
 			const { question } = request.body;
+
+			const embeddings = generateEmbbeddings(question);
+
+			const chuncks = await db
+				.select()
+				.from(schema.audioChuncks)
+				.where()
+				.limit(3);
 
 			const result = await db
 				.insert(schema.questions)

@@ -15,6 +15,20 @@
       "when": 1752465148927,
       "tag": "0001_talented_bloodscream",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1752624212545,
+      "tag": "0002_absurd_junta",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1752624237740,
+      "tag": "0003_keen_kylun",
+      "breakpoints": true
     }
   ]
 }
