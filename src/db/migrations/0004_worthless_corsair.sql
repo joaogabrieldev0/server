@@ -1,0 +1,1 @@
+ALTER TABLE "audio_chuncks" RENAME COLUMN "embbeddings" TO "embeddings";
