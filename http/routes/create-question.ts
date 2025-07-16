@@ -72,7 +72,9 @@ export const createQuestionRoute: FastifyPluginCallbackZod = (app) => {
 				throw new Error('Failed to create new room');
 			}
 
-			return reply.status(201).send({ questionID: insertedQuestion.id });
+			return reply
+				.status(201)
+				.send({ questionID: insertedQuestion.id, answer });
 		}
 	);
 };
