@@ -1,6 +1,10 @@
 node_modules
 .env
-.vscode
+
+# VSCode config
+.vscode/settings.json
+
+#
 *.txt
 bibliotecas
 bibliotecas.txt
